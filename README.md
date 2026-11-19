@@ -26,7 +26,7 @@ I'm a final-year B.Tech student interested in software development, problem-solv
 |---|---|
 | [LeetCode C Solutions](./leetcode-c/) | Accepted problem tracker and C problem-solving practice |
 | [Graylog Centralized Log Management](./graylog-centralized-log-management/) | Academic project overview, architecture, technologies, and lab workflow |
-| [C Programming Projects](./c-projects/) | Calculator, number guessing game, student grade manager, and contact manager |
+| [C Programming Projects](./c-projects/) | Calculator, number guessing game, student grade manager, and contact manager |\n| [EV Battery Monitor](./ev-battery-monitor/) | C-based battery telemetry validation and fault-classification simulation |\n| [Linux System Health Report](./linux-tools/) | Bash utility for memory, disk, uptime, and process snapshots |
 
 ## Current Focus
 
