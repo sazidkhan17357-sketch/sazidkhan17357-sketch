@@ -1,23 +1,22 @@
 # Hi, I'm Sazid Hussain 👋
 
-### Final-year B.Tech Student | C Programmer | Aspiring Software & EV Technology Professional
+### Final-year B.Tech Student | C Programmer | Aspiring Software & IT Professional
 
 [![Build C Projects](https://github.com/sazidkhan17357-sketch/sazidkhan17357-sketch/actions/workflows/c-build.yml/badge.svg)](https://github.com/sazidkhan17357-sketch/sazidkhan17357-sketch/actions/workflows/c-build.yml)
 
-I'm a final-year B.Tech student interested in software development, problem-solving, Linux systems, and electric-vehicle technology. I strengthen my programming fundamentals through coding practice and practical projects.
+I'm a final-year B.Tech student focused on software development, problem-solving, and Linux systems. I strengthen my programming fundamentals through coding practice and practical projects.
 
 - 🌱 Improving my **C programming** and problem-solving skills
 - 💻 Practicing data structures, algorithms, and LeetCode problems
-- 🐧 Interested in **Linux** and system administration
+- 🐧 Building familiarity with **Linux** and system administration
 - 🔧 Academic project: **Centralized Log Management using Graylog**
-- ⚡ Exploring opportunities in **Software/IT** and **EV technology**
-- 🤝 Open to learning, collaboration, internships, and entry-level opportunities
+- 🤝 Open to learning, collaboration, internships, and entry-level Software/IT opportunities
 
 ## Skills & Technologies
 
 - **Programming:** C
 - **Operating Systems:** Linux, Kali Linux
-- **Tools:** Git, GitHub, VirtualBox
+- **Tools:** Git, GitHub, VirtualBox, Bash
 - **Project Technologies:** Graylog, MongoDB, OpenSearch, rsyslog
 
 ## Portfolio
@@ -26,14 +25,15 @@ I'm a final-year B.Tech student interested in software development, problem-solv
 |---|---|
 | [LeetCode C Solutions](./leetcode-c/) | Accepted problem tracker and C problem-solving practice |
 | [Graylog Centralized Log Management](./graylog-centralized-log-management/) | Academic project overview, architecture, technologies, and lab workflow |
-| [C Programming Projects](./c-projects/) | Calculator, number guessing game, student grade manager, and contact manager |\n| [EV Battery Monitor](./ev-battery-monitor/) | C-based battery telemetry validation and fault-classification simulation |\n| [Linux System Health Report](./linux-tools/) | Bash utility for memory, disk, uptime, and process snapshots |
+| [C Programming Projects](./c-projects/) | Calculator, number guessing game, student grade manager, and contact manager |
+| [Linux System Health Report](./linux-tools/) | Bash utility for memory, disk, uptime, and process snapshots |
 
 ## Current Focus
 
 - Writing clean, readable C programs
 - Improving problem-solving and data-structure fundamentals
 - Building practical Linux and software projects
-- Exploring software development and electric mobility
+- Preparing for entry-level software and IT opportunities
 
 ## Coding Profile
 
