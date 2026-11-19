@@ -33,6 +33,9 @@ jobs:
       - name: Compile student grade manager
         run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/student-grade-manager/student_grade_manager.c -o /tmp/student_grade_manager
 
+      - name: Compile contact management system
+        run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/contact-management-system/contact_manager.c -o /tmp/contact_manager
+
       - name: Smoke test calculator
         run: |
           output=$(printf '12 + 5\n' | /tmp/calculator)
