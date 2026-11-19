@@ -2,6 +2,8 @@
 
 ### Final-year B.Tech Student | C Programmer | Aspiring Software & EV Technology Professional
 
+[![Build C Projects](https://github.com/sazidkhan17357-sketch/sazidkhan17357-sketch/actions/workflows/c-build.yml/badge.svg)](https://github.com/sazidkhan17357-sketch/sazidkhan17357-sketch/actions/workflows/c-build.yml)
+
 I'm a final-year B.Tech student interested in software development, problem-solving, Linux systems, and electric-vehicle technology. I strengthen my programming fundamentals through coding practice and practical projects.
 
 - 🌱 Improving my **C programming** and problem-solving skills
