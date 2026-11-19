@@ -1,19 +1,19 @@
 # Student Grade Manager
 
-A small program that stores one student's name and marks in three subjects, then calculates total and average marks.
+This is a simple C program that takes a student's name and marks in three subjects, then works out the total and average.
 
-## Concepts
-- Structures
-- Arrays
-- Loops
-- Input validation
-- Basic calculations
+It currently handles one student each time you run it. I kept the scope small so I could practise the basics clearly.
 
-## Compile and run
+## Build and run
 
-```bash
-gcc student_grade_manager.c -o grade_manager
+~~~bash
+gcc -std=c11 -Wall -Wextra student_grade_manager.c -o grade_manager
 ./grade_manager
-```
+~~~
 
-This is an introductory example; it currently handles one student per run.
+## What I practised
+
+- Defining and using a structure
+- Storing marks in an array
+- Using loops for calculations
+- Checking that marks are within the expected range
