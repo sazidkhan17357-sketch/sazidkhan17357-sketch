@@ -1,40 +1,46 @@
-# Contact Management System (C)
+# Contact Management System
 
-A menu-driven C application that stores contact records in a local text file.
+A menu-based C program for keeping a small list of contacts. You can add a contact, view the saved list, search by name, or delete a contact.
+
+The program saves its records in a local file called contacts.txt, so the contacts are still there when you run it again.
 
 ## Features
-- Add contacts with a name, phone number, and email
-- List all saved contacts
-- Search using an exact, case-sensitive name
-- Delete a contact using an exact name
-- Load saved records when the program starts
-- Save changes to `contacts.txt`
-- Validate empty fields and overly long input
+
+- Add a contact with a name, phone number and email
+- View all saved contacts
+- Search for an exact name
+- Delete a contact by exact name
+- Load saved contacts when the program starts
+- Check for empty or overly long input
 - Store up to 100 contacts
 
-## Concepts demonstrated
-- Structures and arrays
-- Strings and input validation
-- Functions and modular program design
-- File handling with `fopen`, `fgets`, `fprintf`, and `fclose`
-- Searching and deleting array elements
-
 ## Build and run
-Requires GCC or another C11-compatible compiler.
 
-```bash
+You need GCC or another C11-compatible compiler.
+
+~~~bash
 gcc -std=c11 -Wall -Wextra -Wpedantic contact_manager.c -o contact_manager
 ./contact_manager
-```
+~~~
 
-The program creates `contacts.txt` in the current working directory. Each record uses the format `name|phone|email`; the pipe character is therefore not allowed inside a field.
+The program creates contacts.txt in the directory where you run it. The fields are separated by the | character, so that character cannot be part of a name, phone number or email.
 
-## Limitations
-This is an educational project, not a secure contact database. Data is stored as plain text without encryption. Search and delete use exact, case-sensitive name matching. Avoid storing sensitive personal information.
+## What I practised
 
-## Suggested manual checks
-1. Add a contact and list contacts.
-2. Exit and restart; confirm the contact is still present.
-3. Search for the exact name, then try a different spelling.
-4. Delete the contact and list contacts again.
-5. Try empty and overly long input.
+- Structures and arrays
+- Working with strings
+- Splitting a program into functions
+- Reading and writing files
+- Searching for and removing records
+
+## A note about the data
+
+This is a learning project, not a secure address book. The file stores contact details as plain text without encryption. Please use sample data rather than real sensitive information.
+
+## Things to try
+
+1. Add a contact and view the list.
+2. Close the program, run it again and check that the contact is still saved.
+3. Search for the contact by its exact name.
+4. Delete it and check the list again.
+5. Try entering an empty field or a very long value.
