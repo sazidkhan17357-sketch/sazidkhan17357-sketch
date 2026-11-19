@@ -36,6 +36,18 @@ jobs:
       - name: Compile contact management system
         run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/contact-management-system/contact_manager.c -o /tmp/contact_manager
 
+      - name: Compile EV battery monitoring simulator
+        run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror ev-battery-monitor/battery_monitor.c -lm -o /tmp/battery_monitor
+
+      - name: Smoke test EV battery monitoring simulator
+        run: |
+          output=$(/tmp/battery_monitor ev-battery-monitor/sample_readings.csv)
+          echo "$output"
+          echo "$output" | grep -Fq 'Status: NORMAL'
+          echo "$output" | grep -Fq 'Status: WARNING'
+          echo "$output" | grep -Fq 'Status: CRITICAL'
+          echo "$output" | grep -Fq 'Valid readings:   4'
+
       - name: Smoke test calculator
         run: |
           output=$(printf '12 + 5\n' | /tmp/calculator)
