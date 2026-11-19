@@ -5,11 +5,13 @@ on:
     branches: [main]
     paths:
       - "c-projects/**"
+      - "ev-battery-monitor/**"
       - ".github/workflows/c-build.yml"
   pull_request:
     branches: [main]
     paths:
       - "c-projects/**"
+      - "ev-battery-monitor/**"
       - ".github/workflows/c-build.yml"
   workflow_dispatch:
 
