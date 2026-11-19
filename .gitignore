@@ -1,0 +1,13 @@
+# Compiled C executables and object files
+*.o
+*.out
+*.exe
+calculator
+number_guessing_game
+student_grade_manager
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
