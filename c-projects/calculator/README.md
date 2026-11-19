@@ -1,18 +1,21 @@
-# Command-line Calculator
+# Calculator
 
-A basic calculator supporting addition, subtraction, multiplication, and division.
+I made this small command-line calculator to practise taking input and using arithmetic operations in C.
 
-## Concepts
-- Reading input with `scanf`
-- `switch` statements
-- Arithmetic operators
-- Handling invalid input and division by zero
+It supports addition, subtraction, multiplication and division. It also checks for invalid input and division by zero.
 
-## Compile and run
+## Build and run
 
-```bash
-gcc calculator.c -o calculator
+~~~bash
+gcc -std=c11 -Wall -Wextra calculator.c -o calculator
 ./calculator
-```
+~~~
 
-Example input: `12 + 5`
+Try entering an expression such as 12 + 5.
+
+## What I practised
+
+- Reading input with scanf
+- Using a switch statement
+- Arithmetic operators
+- Checking input before calculating
