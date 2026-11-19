@@ -1,38 +1,39 @@
 # Linux System Health Report
 
-A small Bash utility that prints a quick snapshot of a Linux machine's health using standard system commands and the Linux `/proc` filesystem.
+This Bash script prints a quick overview of a Linux machine. I made it as a small way to practise shell scripting and learn where Linux exposes useful system information.
 
-## Features
+## What it shows
 
-- Hostname, kernel version, and current date/time
-- Uptime and load averages
-- Total, available, and used memory
-- Filesystem usage
-- Top five processes by CPU usage
+- Hostname and kernel version
+- Current date and time
+- System uptime and load averages
+- Total, available and used memory
+- Disk space by filesystem
+- The five processes using the most CPU
 
 ## Requirements
 
 - Linux
 - Bash
-- Standard utilities: `awk`, `df`, `head`, `hostname`, `ps`, `uname`, and `uptime`
+- Common command-line tools: awk, df, head, hostname, ps, uname and uptime
 
-## Run
+## Run it
 
-From the repository root:
+From the root of this repository:
 
-```bash
+~~~bash
 bash linux-tools/system_health_report.sh
-```
+~~~
 
-Or make it executable and run it:
+Or make the script executable first:
 
-```bash
+~~~bash
 chmod +x linux-tools/system_health_report.sh
 ./linux-tools/system_health_report.sh
-```
+~~~
 
-The script only reads system information. It does not install packages, change system settings, or require root privileges.
+The script only reads system information. It does not install anything or change system settings, and it does not need root access.
 
-## Concepts demonstrated
+## What I practised
 
-Bash scripting, command pipelines, process inspection, filesystem monitoring, text processing with `awk`, and reading Linux system information from `/proc/meminfo`.
+Bash scripting, pipes, process inspection, disk and memory checks, using awk, and reading information from /proc/meminfo.
