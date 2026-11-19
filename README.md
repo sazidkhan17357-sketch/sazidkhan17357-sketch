@@ -1,13 +1,13 @@
 # Hi, I'm Sazid Hussain 👋
 
-### B.Tech Student | C Programmer | Aspiring Software & EV Technology Professional
+### Final-year B.Tech Student | C Programmer | Aspiring Software & EV Technology Professional
 
-I'm a final-year B.Tech student interested in software development, problem-solving, Linux systems, and electric-vehicle technology. I enjoy strengthening my programming fundamentals by solving coding challenges and building practical projects.
+I'm a final-year B.Tech student interested in software development, problem-solving, Linux systems, and electric-vehicle technology. I strengthen my programming fundamentals through coding practice and practical projects.
 
-- 🌱 Currently improving my **C programming** and problem-solving skills
-- 💻 Practicing data structures, algorithms, and coding problems
+- 🌱 Improving my **C programming** and problem-solving skills
+- 💻 Practicing data structures, algorithms, and LeetCode problems
 - 🐧 Interested in **Linux** and system administration
-- 🔧 Academic project: **Centralized Log Management using Graylog on Kali Linux**
+- 🔧 Academic project: **Centralized Log Management using Graylog**
 - ⚡ Exploring opportunities in **Software/IT** and **EV technology**
 - 🤝 Open to learning, collaboration, internships, and entry-level opportunities
 
@@ -15,24 +15,27 @@ I'm a final-year B.Tech student interested in software development, problem-solv
 
 - **Programming:** C
 - **Operating Systems:** Linux, Kali Linux
-- **Tools & Platforms:** Git, GitHub, VirtualBox
+- **Tools:** Git, GitHub, VirtualBox
 - **Project Technologies:** Graylog, MongoDB, OpenSearch, rsyslog
 
-## Featured Project
+## Portfolio
 
-### Centralized Log Management Using Graylog
-An academic project exploring centralized collection, indexing, and monitoring of system logs using Graylog, MongoDB, OpenSearch, and rsyslog in a Kali Linux environment.
+| Area | What you'll find |
+|---|---|
+| [LeetCode C Solutions](./leetcode-c/) | Accepted problem tracker and C problem-solving practice |
+| [Graylog Centralized Log Management](./graylog-centralized-log-management/) | Academic project overview, architecture, technologies, and lab workflow |
+| [C Programming Projects](./c-projects/) | Calculator, number guessing game, and student grade manager |
 
-## What I'm Working On
+## Current Focus
 
-- Solving programming problems in C
-- Building stronger foundations in software development
-- Learning more about Linux and practical system tools
-- Exploring software and electric-mobility technologies
+- Writing clean, readable C programs
+- Improving problem-solving and data-structure fundamentals
+- Building practical Linux and software projects
+- Exploring software development and electric mobility
 
 ## Connect
 
-I'm open to connecting with developers, recruiters, and fellow learners. Feel free to explore my repositories or reach out through GitHub.
+I'm open to connecting with developers, recruiters, and fellow learners. Feel free to explore my repositories and projects.
 
 ---
 
