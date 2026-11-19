@@ -1,0 +1,46 @@
+name: Build C Projects
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "c-projects/**"
+      - ".github/workflows/c-build.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "c-projects/**"
+      - ".github/workflows/c-build.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Compile C programs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up GCC
+        run: sudo apt-get update && sudo apt-get install -y gcc
+
+      - name: Compile calculator
+        run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/calculator/calculator.c -o /tmp/calculator
+
+      - name: Compile number guessing game
+        run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/number-guessing-game/number_guessing_game.c -o /tmp/number_guessing_game
+
+      - name: Compile student grade manager
+        run: gcc -std=c11 -Wall -Wextra -Wpedantic -Werror c-projects/student-grade-manager/student_grade_manager.c -o /tmp/student_grade_manager
+
+      - name: Smoke test calculator
+        run: |
+          output=$(printf '12 + 5\n' | /tmp/calculator)
+          echo "$output"
+          echo "$output" | grep -Fq 'Result: 17.00'
+
+      - name: Smoke test student grade manager
+        run: |
+          output=$(printf 'Sazid\n80\n90\n100\n' | /tmp/student_grade_manager)
+          echo "$output"
+          echo "$output" | grep -Fq 'Average: 90.00'
