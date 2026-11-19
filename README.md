@@ -26,7 +26,7 @@ I'm a final-year B.Tech student interested in software development, problem-solv
 |---|---|
 | [LeetCode C Solutions](./leetcode-c/) | Accepted problem tracker and C problem-solving practice |
 | [Graylog Centralized Log Management](./graylog-centralized-log-management/) | Academic project overview, architecture, technologies, and lab workflow |
-| [C Programming Projects](./c-projects/) | Calculator, number guessing game, and student grade manager |
+| [C Programming Projects](./c-projects/) | Calculator, number guessing game, student grade manager, and contact manager |
 
 ## Current Focus
 
@@ -34,6 +34,10 @@ I'm a final-year B.Tech student interested in software development, problem-solv
 - Improving problem-solving and data-structure fundamentals
 - Building practical Linux and software projects
 - Exploring software development and electric mobility
+
+## Coding Profile
+
+- [LeetCode](https://leetcode.com/u/sazidhusssain12/) — C programming and algorithm practice
 
 ## Connect
 
